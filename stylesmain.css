@@ -6,7 +6,7 @@
 
 html,body,main {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 main {
@@ -53,7 +53,10 @@ a {
     justify-content: center;
 }
 
-.logo:hover, 
+.logo:hover {
+    color: rgb(6, 82, 82);
+}
+
 .navbar-links:hover {
     color:rgba(9, 243, 173, 0.938);
     transition: color 0.15s;
@@ -182,6 +185,7 @@ footer {
 @media  screen and (max-width: 950px ) {
     main {
         flex-direction: column;
+        height: auto;
     }
 
     .side-bar{
