@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     backdrop-filter: blur(20px);
+    color: white;
     margin: 10em;
     padding: 3em;
 }
@@ -18,6 +19,14 @@
 .form-label {
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.radio-btn {
+    margin-top: 1em;
+}
+
+div > input {
+    margin: 0.5em;
 }
 
 .submit-btn {

@@ -6,7 +6,7 @@
 
 html,body,main {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 main {
@@ -199,12 +199,15 @@ footer {
     .skill-card {
         display: flex;
         align-items: center;
+        margin-top: 1em;
     }
 
     .skill-card p {
         margin: auto;
     }
+
     .info-section {
         flex-direction: column;
+        align-items: center;
     }
 }
