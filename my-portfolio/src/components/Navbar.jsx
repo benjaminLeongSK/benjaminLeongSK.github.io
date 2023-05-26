@@ -1,13 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import logo from '../assets/logo.png';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-const Navbar = () => {
-    const [toogleMedia, setToogleMedia] = useState(false);
-    const handleToggle = () => {
-        setToogleMedia(!toogleMedia);
-    }
+const Navbar = ({toogleMedia, handleToggle}) => {
+    
   return (
     <nav className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]">
         <div>
@@ -25,9 +22,8 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger menu */}
-        <div onClick={handleToggle} className='md:hidden z-10'>
+        <div onClick={handleToggle} className='md:hidden z-30'>
             {!toogleMedia ? <FaBars /> : <FaTimes />}
-
         </div>
         <ul className={!toogleMedia ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>Home</li>
