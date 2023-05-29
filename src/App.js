@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {HashRouter as Router, Routes, Route} from "react-router-dom"
 import Resume from "./components/Resume";
 import BackUp from "./components/BackUp";
 
