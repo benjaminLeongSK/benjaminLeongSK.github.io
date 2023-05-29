@@ -24,7 +24,7 @@ function App() {
       <Router>
         <Routes>
           <Route 
-            exact path="/" 
+            path="/" 
             element={
               <>
                 <Navbar handleToggle={handleToggle} toogleMedia={toogleMedia}/>
@@ -37,7 +37,7 @@ function App() {
               </>
               }
           />
-          <Route exact path="/resume" element={<Resume />}/>
+          <Route path="/resume" element={<Resume />}/>
         </Routes>
       </Router>
     </div>

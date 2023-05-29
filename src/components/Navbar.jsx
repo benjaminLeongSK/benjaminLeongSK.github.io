@@ -14,27 +14,27 @@ const Navbar = ({toogleMedia, handleToggle}) => {
 
         <div>
             <ul className="hidden md:flex">
-                <li>
+                <li className='border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                     <Link to='home'smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
-                <li>
+                <li className='border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                     <Link to='about'smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
-                <li>
+                <li className='border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                     <Link to='skills'smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
-                <li>
+                <li className='border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                     <Link to='projects'smooth={true} duration={500}>
                         Projects
                     </Link>
                 </li>
-                <li>
+                <li className='border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                     <Link to='contact'smooth={true} duration={500}>
                         Contact Me
                     </Link>
@@ -47,27 +47,27 @@ const Navbar = ({toogleMedia, handleToggle}) => {
             {!toogleMedia ? <FaBars /> : <FaTimes />}
         </div>
         <ul className={!toogleMedia ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>
+            <li className='py-2 m-4 text-4xl border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                 <Link onClick={handleToggle} to='home'smooth={true} duration={500}>
                         Home
                 </Link>
             </li>
-            <li className='py-6 text-4xl'>
+            <li className='py-2 m-4 text-4xl border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                 <Link onClick={handleToggle} to='about'smooth={true} duration={500}>
                         About
                 </Link>
             </li>
-            <li className='py-6 text-4xl'>
+            <li className='py-2 m-4 text-4xl border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                 <Link onClick={handleToggle} to='skills'smooth={true} duration={500}>
                         Skills
                 </Link>
             </li>
-            <li className='py-6 text-4xl'>
+            <li className='py-2 m-4 text-4xl border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                 <Link onClick={handleToggle} to='projects'smooth={true} duration={500}>
                         Projects
                 </Link>
             </li>
-            <li className='py-6 text-4xl'>
+            <li className='py-2 m-4 text-4xl border-b-2 border-[#0a192f] hover:border-[#CB8316] duration-200'>
                 <Link onClick={handleToggle} to='contact'smooth={true} duration={500}>
                         Contact Me
                 </Link>
