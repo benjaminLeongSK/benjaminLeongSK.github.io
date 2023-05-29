@@ -1,5 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll';
 
 const Home = ({toogleMedia}) => {
   return (
@@ -29,17 +30,17 @@ const Home = ({toogleMedia}) => {
                 }
             </div>
             <p className='py-4 max-w-[700px]'>
-                I’m a full-stack developer specializing in building (and occasionally
-                designing) exceptional digital experiences. Currently, I’m focused on
-                building responsive full-stack web applications.
-            </p>
+                I’m a full-stack developer focused on building responsive full-stack web applications. Having graduated from a 6 months intensive bootcamp i am ready to dive into any opportunites given.
+            </p> 
             <div>
-                <button className=' group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#CB8316] hover:border-[#CB8316] duration-200'>
-                    View work
-                    <span className='group-hover:rotate-90 duration-300'>
-                        <HiArrowNarrowRight className='ml-3' />
-                    </span>
-                </button>
+                    <Link to='projects'smooth={true} duration={500}>
+                        <button className=' group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#CB8316] hover:border-[#CB8316] duration-200'>
+                            View work
+                            <span className='group-hover:rotate-90 duration-300'>
+                                <HiArrowNarrowRight className='ml-3' />
+                            </span>
+                        </button>
+                    </Link>
             </div>
         </div>
         
