@@ -8,7 +8,6 @@
 @layer base {
     body {
         @apply font-[Raleway];
-        color: white;
 
     }
 

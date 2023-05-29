@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 
 const Home = ({toogleMedia}) => {
   return (
-    <section name='home' className='w-full h-screen bg-[#0f2342]'>
+    <section name='home' className='w-full h-screen bg-[#0f2342] text-gray-300'>
     
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-[#CB8316]'> 
