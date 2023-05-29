@@ -88,7 +88,7 @@ const Navbar = ({toogleMedia, handleToggle}) => {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] hover:bg-blue-800 duration-300 bg-blue-600'>
-                    <a href='/resume' className='flex justify-between items-center w-full text-gray-300'>
+                    <a href='/#/resume' className='flex justify-between items-center w-full text-gray-300'>
                         Resume <BsFillPersonLinesFill size={35}/>
                     </a>
                 </li>

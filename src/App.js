@@ -37,7 +37,7 @@ function App() {
               </>
               }
           />
-          <Route path="/#/resume" element={<Resume />}/>
+          <Route path="/resume" element={<Resume />}/>
         </Routes>
       </Router>
     </div>
