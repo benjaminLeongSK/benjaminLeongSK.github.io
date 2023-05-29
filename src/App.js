@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { useState } from 'react';
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   const [toogleMedia, setToogleMedia] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
